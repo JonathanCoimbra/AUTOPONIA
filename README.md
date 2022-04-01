@@ -1,4 +1,4 @@
-# Josué's Automatic Watering Can - RegaBão
+# Josué's Automatic Watering Can - AUTOPONIA
 
 ### Basic Endpoint Configurations
 CRUD of plant information:
