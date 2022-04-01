@@ -16,6 +16,8 @@ class WaterCanModel(db.Model):
     def __repr__(self):
         return f"Water Can(volume = {volume}, power = {power})"
 
+db.create_all()
+
 watercan_put_args = reqparse.RequestParser()
 watercan_put_args.add_argument("volume", type=float, help="Volume of the watercan", required=True)
 watercan_put_args.add_argument("power", type=float, help="Power of the watercan", required=True)
